@@ -1,0 +1,6 @@
+<app-modal-simple #mymodal (result)="onModalClose($event)"></app-modal-simple>
+<button (click)="mymodal.open()">Open modal</button>
+
+<p>
+Result is {{ modalCloseResult }}
+</p>
